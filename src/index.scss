@@ -1,0 +1,30 @@
+
+$assets-path: "~@uitk/ui-toolkit/dist/css/nm-px/assets";
+@import '~@uitk/ui-toolkit/src/scss/themes/nm-px/uitk.scss';
+
+header {
+  font-weight: bold;
+  display: block;
+  font-size: 40px;
+  background-color: #0068b3;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+h2{
+  font-weight: bold;
+  display: inline-block;
+  font-size: 30px;
+  background-color: gray;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 0
+}
+
+.inputbox{
+  position: absolute;
+  top: 2.5%;
+  right: 10%;
+  width: 40%;
+}
